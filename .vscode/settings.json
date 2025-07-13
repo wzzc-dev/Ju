@@ -5,6 +5,8 @@
         "memory.h": "c",
         "chunk.h": "c",
         "stdlib.h": "c",
-        "value.h": "c"
+        "value.h": "c",
+        "stdint.h": "c",
+        "vm.h": "c"
     }
 }
