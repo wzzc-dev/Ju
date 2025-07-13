@@ -65,4 +65,5 @@ const srcs = &.{
     "src/chunk.c",
     "src/memory.c",
     "src/debug.c",
+    "src/value.c",
 };
