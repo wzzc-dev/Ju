@@ -7,6 +7,7 @@
         "stdlib.h": "c",
         "value.h": "c",
         "stdint.h": "c",
-        "vm.h": "c"
+        "vm.h": "c",
+        "typeinfo": "c"
     }
 }

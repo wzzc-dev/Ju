@@ -60,4 +60,13 @@ pub fn build(b: *std.Build) void {
     run_step.dependOn(&run_cmd.step);
 }
 
-const srcs = &.{ "src/main.c", "src/chunk.c", "src/memory.c", "src/debug.c", "src/value.c", "src/vm.c" };
+const srcs = &.{
+    "src/main.c",
+    "src/chunk.c",
+    "src/memory.c",
+    "src/debug.c",
+    "src/value.c",
+    "src/vm.c",
+    "src/scanner.c",
+    "src/compiler.c",
+};
