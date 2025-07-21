@@ -70,4 +70,5 @@ const srcs = &.{
     "src/scanner.c",
     "src/compiler.c",
     "src/object.c",
+    "src/table.c",
 };
