@@ -69,4 +69,5 @@ const srcs = &.{
     "src/vm.c",
     "src/scanner.c",
     "src/compiler.c",
+    "src/object.c",
 };

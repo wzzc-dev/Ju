@@ -8,6 +8,11 @@
         "value.h": "c",
         "stdint.h": "c",
         "vm.h": "c",
-        "typeinfo": "c"
+        "typeinfo": "c",
+        "type_traits": "c",
+        "object.h": "c",
+        "string.h": "c",
+        "compiler.h": "c",
+        "stdio.h": "c"
     }
 }
