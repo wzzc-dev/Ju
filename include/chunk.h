@@ -2,6 +2,7 @@
 #define ju_chunk_h
 
 #include "common.h"
+#include "chunk.h"
 #include "value.h"
 
 typedef enum {
@@ -28,6 +29,7 @@ typedef enum {
   OP_JUMP_IF_FALSE,
   OP_JUMP,
   OP_LOOP,
+  OP_CALL,
   OP_RETURN, // 从当前函数返回
 } OpCode;
 
